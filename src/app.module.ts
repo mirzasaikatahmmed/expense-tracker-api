@@ -6,9 +6,9 @@ import { UsersModule } from './users/users.module';
 import { CategoriesModule } from './categories/categories.module';
 import { ExpensesModule } from './expenses/expenses.module';
 import { ReportsModule } from './reports/reports.module';
-import { User } from './users/user.entity';
-import { Category } from './categories/category.entity';
-import { Expense } from './expenses/expense.entity';
+import { User } from './users/user.entity/user.entity';
+import { Category } from './categories/category.entity/category.entity';
+import { Expense } from './expenses/expense.entity/expense.entity';
 
 @Module({
   imports: [
